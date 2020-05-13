@@ -1,0 +1,180 @@
+
+/* color variables*/
+:root {
+    --main-bg-color: #1d1d1d;
+    --container-bg-color: #101010;
+    --main-border: #08F7FE;
+    --divider-color: #FE53BB; 
+    --header-color: #F5D300;
+    --accent-color: #E2E2E2;
+    
+}
+
+/* no left/right border for xs screen sizes*/
+@media only screen and (max-width: 700px) {
+    .flexbox {
+        border-width: 4px 0px 4px 0px !important;
+        border-style: solid;
+        border-color: var(--main-border);
+    }
+}
+
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+a {
+    color: var(--accent-color) !important;
+}
+
+
+a:hover {
+    color: var(--header-color) !important;
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+
+p {
+    color: var(--accent-color);
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+    margin: 2px;
+
+}
+
+
+h2 {
+    color: var(--header-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9em;
+    color: var(--accent-color);
+    text-align: center; 
+    transform: scale(1);
+    margin-top: 10px;
+
+}
+
+h4 a:hover {
+    color: var(--header-color) !important;
+    transform: scale(1.1) !important;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: var(--accent-color);
+    text-align: center; 
+    margin-top: 10px;
+
+}
+
+/*divder line*/
+hr {
+    border: solid 1px;
+    border-color: var(--divider-color);
+    background-color: var(--divider-color);
+}
+
+/*form control headings*/
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: var(--accent-color);
+}
+
+/*controls navbar bg and main container bg*/
+.bg-dark {
+    background-color: var(--container-bg-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--main-border);
+    border-color: var(--main-border);
+    color: #101010;
+}
+
+/*slight color change for contact submit button*/
+.btn:hover {
+    background-color: #0edadf;
+    border-color: #0edadf;
+    color: #101010;
+}
+
+/*separator for nav links*/ 
+.border-left {
+    border-color: var(--header-color) !important;
+}
+
+
+.card {
+    background-color: var(--container-bg-color);
+}
+
+/*portfolio images*/
+.card img {
+    max-width: 300px;
+    height: 180px;
+
+}
+
+.card-body a {
+    color: var(--accent-color);
+}
+
+.card-footer {
+    border-top: solid 1px;
+    border-color:var(--divider-color);
+
+}
+
+.flexbox {
+    background-color:var(--container-bg-color) !important;
+    border-color: var(--main-border);
+    border-style: solid;
+    border-width: 4px;
+}
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    border-bottom: solid 1px;
+    border-color: var(--divider-color);
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 1.5em;
+}
+
+
+.text-white {
+    color: var(--accent-color) !important;
+}
+
+/*Image in About Me size*/
+#AboutMeImg {
+    width: 55%;
+    height: auto;
+}
+
+/*"Hi, I'm Darian!" text in About Me*/
+#greeting {
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: var(--accent-color);
+    font-family: 'Kalam';
+    color: var(--header-color);
+    text-align: center;
+    padding-bottom: 2px;
+
+}
+
+
+
+
+
