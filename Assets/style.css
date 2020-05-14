@@ -1,10 +1,10 @@
 /* color variables*/
 :root {
   --main-bg-color: #1d1d1d;
-  --container-bg-color: #101010;
-  --main-border: #08f7fe;
-  --divider-color: #fe53bb;
-  --header-color: #f5d300;
+  --container-color: #101010;
+  --main-color: #27eccd;
+  --link-color: #f95c48;
+  --header-color: #d7ef50;
   --accent-color: #e2e2e2;
 }
 
@@ -13,24 +13,29 @@
   .flexbox {
     border-width: 4px 0px 4px 0px !important;
     border-style: solid;
-    border-color: var(--main-border);
+    border-color: var(--main-color);
   }
 }
 
+/*background image*/
 body {
-  background-color: var(--main-bg-color);
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 175%;
 }
 
+/* links */
 a {
-  color: var(--accent-color) !important;
+  color: var(--link-color) !important;
 }
 
 a:hover {
-  color: white !important;
+  color: var(--header-color) !important;
   transform: scale(1.2);
   text-decoration: none;
 }
 
+/* text */
 p {
   color: var(--accent-color);
   font-family: "Open Sans Condensed", sans-serif;
@@ -40,15 +45,16 @@ p {
   margin: 2px;
 }
 
+/* main headers*/
 h2 {
   color: var(--header-color);
   font-family: "Poppins", sans-serif;
 }
 
+/* portfolio captions*/
 h4 {
   font-family: "Poppins", sans-serif;
   font-size: 0.9em;
-  color: var(--accent-color);
   text-align: center;
   transform: scale(1);
   margin-top: 10px;
@@ -59,7 +65,6 @@ h4 a:hover {
   transform: scale(1.1) !important;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-  color: var(--accent-color);
   text-align: center;
   margin-top: 10px;
 }
@@ -67,52 +72,29 @@ h4 a:hover {
 /*divder line*/
 hr {
   border: solid 1px;
-  border-color: var(--divider-color);
-  background-color: var(--divider-color);
+  border-color: var(--link-color);
+  background-color: var(--link-color);
 }
 
-/*form control headings*/
-label {
-  font-family: "Poppins", sans-serif;
-  font-size: 1em;
-  color: var(--accent-color);
-}
-
+/* main container positioning*/
 main {
   position: relative;
   top: 40px;
 }
 
-i {
-  color: var(--accent-color) !important;
-}
-
 /*controls navbar bg and main container bg*/
 .bg-dark {
-  background-color: var(--container-bg-color) !important;
-}
-
-.btn-primary {
-  background-color: var(--main-border);
-  border-color: var(--main-border);
-  color: #101010;
-}
-
-/*slight color change for contact submit button*/
-.btn:hover {
-  background-color: #0edadf;
-  border-color: #0edadf;
-  color: #101010;
+  background-color: var(--container-color) !important;
 }
 
 /*separator for nav links*/
 .border-left {
-  border-color: white !important;
-  /* border: 2px solid; */
+  border-color: var(--header-color) !important;
 }
 
+/* card backgroud is same as container */
 .card {
-  background-color: var(--container-bg-color);
+  background-color: var(--container-color);
 }
 
 /*portfolio images*/
@@ -121,62 +103,51 @@ i {
   height: 180px;
 }
 
-.card-body a {
-  color: var(--accent-color);
-}
-
+/* border on footer*/
 .card-footer {
-  border-top: solid 1px;
-  border-color: var(--divider-color);
+  border-top: solid 2px;
+  border-color: var(--main-color);
 }
 
+/* main box */
 .flexbox {
-  background-color: var(--container-bg-color) !important;
-  border-color: var(--main-border);
+  background-color: var(--container-color) !important;
+  border-color: var(--main-color);
   border-style: solid;
   border-width: 4px;
 }
 
-.list-group-item {
-  background-color: var(--container-bg-color);
-}
-
-.list-group-item b {
+/* font awesome color styling */
+.icon {
   color: var(--accent-color) !important;
 }
 
-.contact {
-  color: var(--divider-color) !important;
+/* contact items have background color the same as container */
+.list-group-item {
+  background-color: var(--container-color);
+}
+
+/* contact item headers */
+.list-group-item b {
+  color: var(--header-color) !important;
 }
 
 .navbar {
   height: 75px !important;
   font-family: "Poppins", sans-serif;
-  border-bottom: solid 1px;
-  border-color: var(--divider-color);
-  background: rgb(29, 211, 253) !important;
-  background: linear-gradient(
-    90deg,
-    rgba(29, 211, 253, 1) 20%,
-    rgba(252, 237, 69, 1) 88%
-  ) !important;
+  border-bottom: solid 2px;
+  border-color: var(--main-color);
 }
 
-.navbar-brand {
-  color: white !important;
-  font-size: 1.5em;
-}
-
+/*brand (name) is link and doesn't change on hover*/
+.navbar-brand,
 .navbar-brand:hover {
-  color: white !important;
+  color: var(--header-color) !important;
+  font-size: 1.5em;
   transform: scale(1);
-  text-decoration: none;
 }
 
-.nav-link {
-  color: var(--divider-color) !important;
-}
-
+/* footer text */
 .text-white {
   color: var(--accent-color) !important;
 }
