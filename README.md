@@ -9,6 +9,7 @@ https://darnocer.github.io/
 - [Font Awesome](https://fontawesome.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Google Fonts](https://fonts.google.com/)
+- [Vector4Free](https://www.vector4free.com/standard-license)
 
 ## Questions?
 
