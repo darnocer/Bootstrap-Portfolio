@@ -2,9 +2,9 @@
 :root {
   --main-bg-color: #1d1d1d;
   --container-color: #101010;
-  --main-color: #27eccd;
-  --link-color: #f95c48;
-  --header-color: #d7ef50;
+  --main-color: #6fb1b5;
+  --link-color: #b72035;
+  --header-color: #d7d061;
   --accent-color: #e2e2e2;
 }
 
@@ -20,8 +20,7 @@
 /*background image*/
 body {
   background-image: url("images/background.png");
-  background-repeat: no-repeat;
-  background-size: 100% 175%;
+  background-repeat: repeat;
 }
 
 /* links */
