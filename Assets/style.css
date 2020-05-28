@@ -37,7 +37,7 @@ a {
 
 a:hover {
   color: var(--header-color) !important;
-  transform: scale(1.2) !important;
+  transform: scale(1.2);
   text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ main {
 .navbar-brand:hover {
   color: var(--header-color) !important;
   font-size: 1.5em;
-  transform: scale(1);
+  transform: scale(1) !important;
 }
 
 /* footer text */
