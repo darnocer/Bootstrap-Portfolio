@@ -55,6 +55,7 @@ a:hover {
 h1 {
   color: var(--header-color);
   font-family: "Poppins", sans-serif;
+  font-size: 2rem;
 }
 
 /* portfolio captions*/
