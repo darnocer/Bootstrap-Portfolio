@@ -87,6 +87,7 @@ hr {
 main {
   position: relative;
   top: 40px;
+  margin-bottom: 100px;
 }
 
 /*controls navbar bg and main container bg*/
