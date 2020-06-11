@@ -51,6 +51,13 @@ a:hover {
   margin: 2px;
 }
 
+.portfolio-text {
+  color: var(--accent-color);
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: justify;
+  margin: 2px;
+}
+
 /* main headers*/
 h1 {
   color: var(--header-color);
