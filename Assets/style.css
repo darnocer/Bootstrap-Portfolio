@@ -54,7 +54,7 @@ a:hover {
 .portfolio-text {
   color: var(--accent-color);
   font-family: "Open Sans Condensed", sans-serif;
-  text-align: justify;
+  text-align: center;
   margin: 2px;
 }
 
@@ -110,11 +110,12 @@ main {
 /* card backgroud is same as container */
 .card {
   background-color: var(--container-color);
+  width: 18rem;
 }
 
 /*portfolio images*/
 .card img {
-  max-width: 300px;
+  max-width: 400px;
   height: 180px;
 }
 
