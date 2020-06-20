@@ -69,6 +69,11 @@ main {
   position: relative;
   top: 40px;
   margin-bottom: 100px;
+  max-width: 800px;
+}
+
+nav {
+  min-height: 100px;
 }
 
 /* text */
@@ -92,6 +97,12 @@ main {
   position: relative;
   top: 10px;
   margin-right: 10px;
+}
+.btn-dark,
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: #101010;
+  border-color: #101010;
 }
 
 /* card backgroud is same as container */
@@ -132,6 +143,7 @@ main {
 .icons {
   padding-left: 45px;
 }
+
 /* contact items have background color the same as container */
 .list-group-item {
   background-color: var(--container-color);
@@ -160,6 +172,7 @@ main {
 .nav-link {
   font-size: 20px;
 }
+
 /* portfolio captions*/
 .portfolio-link {
   font-family: "Poppins", sans-serif;
@@ -198,6 +211,6 @@ main {
   padding-bottom: 2px;
 }
 
-nav {
-  min-height: 100px;
+#contact {
+  min-height: 300px;
 }
