@@ -41,37 +41,11 @@ a:hover {
   text-decoration: none;
 }
 
-/* text */
-.about-me-text {
-  color: var(--accent-color);
-  font-family: "Open Sans Condensed", sans-serif;
-  letter-spacing: 2px;
-  line-height: 25px;
-  text-align: justify;
-  margin: 2px;
-}
-
-.portfolio-text {
-  color: var(--accent-color);
-  font-family: "Open Sans Condensed", sans-serif;
-  text-align: center;
-  margin: 2px;
-}
-
 /* main headers*/
 h1 {
   color: var(--header-color);
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
-}
-
-/* portfolio captions*/
-.portfolio-link {
-  font-family: "Poppins", sans-serif;
-  font-size: 0.9em;
-  text-align: center;
-  /* transform: scale(1); */
-  margin-top: 10px;
 }
 
 p a:hover {
@@ -95,6 +69,16 @@ main {
   position: relative;
   top: 40px;
   margin-bottom: 100px;
+}
+
+/* text */
+.about-me-text {
+  color: var(--accent-color);
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 2px;
+  line-height: 25px;
+  text-align: justify;
+  margin: 2px;
 }
 
 /*controls navbar bg and main container bg*/
@@ -141,6 +125,13 @@ main {
   color: var(--accent-color) !important;
 }
 
+.icon:hover {
+  color: var(--header-color) !important;
+}
+
+.icons {
+  padding-left: 45px;
+}
 /* contact items have background color the same as container */
 .list-group-item {
   background-color: var(--container-color);
@@ -164,6 +155,25 @@ main {
   color: var(--header-color) !important;
   font-size: 2.5em;
   transform: scale(1) !important;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+/* portfolio captions*/
+.portfolio-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  /* transform: scale(1); */
+  margin-top: 10px;
+}
+
+.portfolio-text {
+  color: var(--accent-color);
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  margin: 2px;
 }
 
 /* footer text */
