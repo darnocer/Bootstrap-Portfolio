@@ -144,6 +144,14 @@ p a:hover {
   color: var(--header-color) !important;
 }
 
+.icons {
+  margin-top: 30px;
+}
+
+.page-header {
+  margin-bottom: 40px;
+}
+
 /* contact items have background color the same as container */
 .list-group-item {
   background-color: var(--container-color);
