@@ -224,10 +224,15 @@ nav {
   position: relative;
   top: -16px;
   right: 4px;
+  width: 325px;
 }
 
 #headshot {
   width: 13%;
   height: auto;
   border-radius: 50%;
+}
+
+.test {
+  border: 1px solid red;
 }
