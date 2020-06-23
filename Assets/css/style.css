@@ -41,20 +41,15 @@ a:hover {
   text-decoration: none;
 }
 
+footer {
+  max-height: 30px;
+}
+
 /* main headers*/
 h1 {
   color: var(--header-color);
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
-}
-
-p a:hover {
-  color: var(--header-color) !important;
-  transform: scale(1.1);
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  margin-top: 10px;
 }
 
 /*divder line*/
@@ -73,7 +68,16 @@ main {
 }
 
 nav {
-  min-height: 100px;
+  min-height: 135px;
+}
+
+p a:hover {
+  color: var(--header-color) !important;
+  transform: scale(1.1);
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 10px;
 }
 
 /* text */
@@ -192,6 +196,10 @@ nav {
 /* footer text */
 .text-white {
   color: var(--accent-color) !important;
+}
+
+#about {
+  margin-bottom: 100px;
 }
 
 /*Image in About Me size*/
