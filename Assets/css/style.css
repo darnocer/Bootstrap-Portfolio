@@ -61,9 +61,10 @@ hr {
 
 /* main container positioning*/
 main {
-  position: relative;
-  top: 40px;
-  margin-bottom: 100px;
+  position: absolute;
+  margin: 50px auto;
+  left: 0;
+  right: 0;
   max-width: 800px;
 }
 
@@ -200,10 +201,6 @@ p a:hover {
 /* footer text */
 .text-white {
   color: var(--accent-color) !important;
-}
-
-#about {
-  margin-bottom: 100px;
 }
 
 /*Image in About Me size*/
