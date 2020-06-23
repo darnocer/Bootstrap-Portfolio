@@ -144,10 +144,6 @@ p a:hover {
   color: var(--header-color) !important;
 }
 
-.icons {
-  padding-left: 45px;
-}
-
 /* contact items have background color the same as container */
 .list-group-item {
   background-color: var(--container-color);
