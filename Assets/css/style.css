@@ -86,7 +86,7 @@ p a:hover {
   color: var(--accent-color);
   font-family: "Open Sans Condensed", sans-serif;
   letter-spacing: 2px;
-  line-height: 25px;
+  line-height: 21px;
   text-align: justify;
   margin: 2px;
 }
@@ -205,7 +205,7 @@ p a:hover {
 
 /*Image in About Me size*/
 #AboutMeImg {
-  width: 55%;
+  width: 50%;
   height: auto;
 }
 
@@ -216,7 +216,7 @@ p a:hover {
   color: var(--accent-color);
   font-family: "Kalam";
   color: var(--header-color);
-  text-align: center;
+  text-align: right !important;
   padding-bottom: 2px;
 }
 
