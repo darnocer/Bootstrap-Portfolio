@@ -86,7 +86,7 @@ p a:hover {
   color: var(--accent-color);
   font-family: "Open Sans Condensed", sans-serif;
   letter-spacing: 2px;
-  line-height: 21px;
+  line-height: 20px;
   text-align: justify;
   margin: 2px;
 }
