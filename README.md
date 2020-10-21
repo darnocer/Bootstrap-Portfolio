@@ -1,6 +1,6 @@
 # Darian Nocera's Portfolio
 
-## URL: https://darnocer.github.io/
+## URL: https://darnocer.github.io/Bootstrap-Portfolio/
 
 ## Credits
 
