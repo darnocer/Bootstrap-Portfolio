@@ -1,3 +1,7 @@
+<h1 style="color: red;">Here lies my very first development portfolio :') This repo is no longer maintained as of July 2020. 
+Check out my latest portfolio at <a href="https://github.com/darnocer/darnocer.github.io">darnocer.github.io</a>
+</h1>
+
 # Darian Nocera's Portfolio
 
 ## URL: https://darnocer.github.io/Bootstrap-Portfolio/
